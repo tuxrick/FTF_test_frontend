@@ -34,7 +34,6 @@ function App() {
         {commits.map((commit, index) =>
           <div key={index}>
             <p>{commit.commit.author.name}</p>
-            <p>{commit.commit.author.email}</p>
             <p>{commit.commit.message}</p>
           </div>
         )}
